@@ -8,7 +8,7 @@ html {
   height: 100%; }
 
 body {
-  background-image: url("../images/bitmap@2x.png");
+  background-image: url("https://res.cloudinary.com/dapc2mxjl/image/upload/v1518216383/visit_page/bitmap_2x.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -31,7 +31,7 @@ body {
       display: flex; }
     .container-fluid .navigation a, .container-fluid .navigation_lower a, .container-fluid .communications a {
       flex-direction: column;
-      justify-content: space-evenly;
+      justify-content: space-around;
       display: flex;
       color: #ffffff;
       text-align: center;
@@ -47,7 +47,7 @@ body {
       overflow: hidden;
       height: 80px;
       padding: 0 10px;
-      justify-content: space-evenly;
+      justify-content: center;
       display: flex;
       flex-direction: column; }
     .container-fluid .navigation .logo, .container-fluid .navigation_lower .logo, .container-fluid .communications .logo {
